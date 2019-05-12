@@ -82,13 +82,13 @@ cor.test(y, x)
 # Pearson's product-moment correlation
 # 
 # data:  y and x
-# t = 0.070574, df = 8, p-value = 0.9455
+# t = -0.10575, df = 8, p-value = 0.9184
 # alternative hypothesis: true correlation is not equal to 0
 # 95 percent confidence interval:
-# -0.6143307  0.6444489
+#   -0.6516592  0.6065318
 # sample estimates:
-# cor 
-# 0.02494382
+#   cor 
+# -0.03736304
 
 y <- subset(data.uref.ulift, surface == "loam")$lift.off.velocity
 x <- subset(data.uref.ulift, surface == "loam")$vh.ratio
